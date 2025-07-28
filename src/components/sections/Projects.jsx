@@ -105,6 +105,7 @@ export const Projects = () =>{
                         >View Project → {""}</a>
                     </div>
                 </div>
+                
                 <div className="p-6 rounded-xl border border-white/10 hover:-translate-y-1 hover:border-blue-500/30 hover:shadow-[0_2px_8px_rgba(59,130,246,0.2)] transition">
                     <h3 className="text-xl font-bold mb-2">ThemeSwitcher</h3>
                     <p className="text-gray-400 mb-4">
@@ -129,6 +130,7 @@ export const Projects = () =>{
                         >View Project → {""}</a>
                     </div>
                 </div>
+
                 <div className="p-6 rounded-xl border border-white/10 hover:-translate-y-1 hover:border-blue-500/30 hover:shadow-[0_2px_8px_rgba(59,130,246,0.2)] transition">
                     <h3 className="text-xl font-bold mb-2">Simple Banking System</h3>
                     <p className="text-gray-400 mb-4">
@@ -148,6 +150,29 @@ export const Projects = () =>{
 
                     <div className="flex justify-between items-center">
                         <a href="https://github.com/jeffreydarlington/WeatherApp" 
+                        className="text-blue-400 hover:text-blue-300 transition-colors my-4"
+                        >View Project → {""}</a>
+                    </div>
+                </div>
+
+                <div className="p-6 rounded-xl border border-white/10 hover:-translate-y-1 hover:border-blue-500/30 hover:shadow-[0_2px_8px_rgba(59,130,246,0.2)] transition">
+                    <h3 className="text-xl font-bold mb-2">CPU_Simulator</h3>
+                    <p className="text-gray-400 mb-4">
+                    A virtual CPU simulator written in C++ that can execute simple assembly-like programs. This educational tool demonstrates fundamental CPU concepts including instruction execution, register management, memory operations, and program flow control.                    </p>
+                        {["C++"].map((tech, key)=>(
+                            <span 
+                            key={key}
+                                className="bg-blue-500/10 text-blue-500 py-1 px-3 rounded-full text-sm hover:bg-blue-500/20
+                                                hover:shadow-[0_2px_8px_rgba(59,130,246,0.1)] transition-all
+                            "
+                            >
+                                {tech}
+                            </span>
+                        ))}
+                    </div>
+
+                    <div className="flex justify-between items-center">
+                        <a href="https://github.com/jeffreydarlington/CPU_Simulator" 
                         className="text-blue-400 hover:text-blue-300 transition-colors my-4"
                         >View Project → {""}</a>
                     </div>
