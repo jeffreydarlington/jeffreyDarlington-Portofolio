@@ -159,6 +159,7 @@ export const Projects = () =>{
                     <h3 className="text-xl font-bold mb-2">CPU_Simulator</h3>
                     <p className="text-gray-400 mb-4">
                     A virtual CPU simulator written in C++ that can execute simple assembly-like programs. This educational tool demonstrates fundamental CPU concepts including instruction execution, register management, memory operations, and program flow control.                    </p>
+                    <div className="flex flex-wrap gap-2 mb-4">
                         {["C++"].map((tech, key)=>(
                             <span 
                             key={key}
