@@ -13,8 +13,8 @@
     "deploy": "gh-pages -d dist"
   },
   "dependencies": {
+    "@formspree/react": "^3.0.0",
     "@tailwindcss/vite": "^4.0.17",
-    "emailjs-com": "^3.2.0",
     "package.json": "file:",
     "react": "^19.0.0",
     "react-dom": "^19.0.0",
