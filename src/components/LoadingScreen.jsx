@@ -15,7 +15,7 @@ export const LoadingScreen = ({ onComplete }) =>{
 
                 setTimeout(() =>{
                     onComplete();
-                }, 500)
+                }, 1000)
             }
         }, 100);
 
