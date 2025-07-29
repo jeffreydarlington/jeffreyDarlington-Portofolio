@@ -149,7 +149,7 @@ export const Projects = () =>{
                     </div>
 
                     <div className="flex justify-between items-center">
-                        <a href="https://github.com/jeffreydarlington/WeatherApp" 
+                        <a href="https://github.com/jeffreydarlington/SimpleBanckAccountSystem" 
                         className="text-yellow-400 hover:text-yellow-300 transition-colors my-4"
                         >View Project → {""}</a>
                     </div>
