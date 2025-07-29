@@ -16,7 +16,7 @@ export const Contact = () =>{
                 import.meta.env.VITE_SERVICE_ID, 
                 import.meta.env.VITE_SERVICE_ID, e.target, 
                 import.meta.env.VITE_PUBLIC_KEY)
-            .then((result) =>{
+            .then(() =>{
             alert("Message Sent!");
             setFormData({name:"", email: "", massage: ""})
         })
