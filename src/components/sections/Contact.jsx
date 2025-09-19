@@ -92,7 +92,7 @@ export const Contact = () => {
               { network: "twitter", url: "https://x.com/Jeffdton11" },
               {
                 network: "instagram",
-                url: "https://www.instagram.com/jeffdton/",
+                url: "https://www.instagram.com/jeffdton",
               },
             ].map((social, index) => (
               <div
