@@ -90,10 +90,6 @@ export const Contact = () => {
                 url: "https://www.linkedin.com/in/jeffrey-darlington/",
               },
               { network: "twitter", url: "https://x.com/Jeffdton11" },
-              {
-                network: "instagram",
-                url: "https://www.instagram.com/jeffdton",
-              },
             ].map((social, index) => (
               <div
                 key={index}
