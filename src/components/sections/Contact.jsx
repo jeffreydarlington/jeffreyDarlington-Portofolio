@@ -89,7 +89,7 @@ export const Contact = () => {
                 network: "linkedin",
                 url: "https://www.linkedin.com/in/jeffrey-darlington/",
               },
-              { network: "twitter", url: "https://x.com/Jeffdton11" },
+              { network: "twitter", url: "https://x.com/Jeffdton" },
             ].map((social, index) => (
               <div
                 key={index}
