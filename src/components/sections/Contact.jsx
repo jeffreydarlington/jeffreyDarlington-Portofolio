@@ -12,7 +12,7 @@ export const Contact = () => {
     >
       <RevealOnScroll>
         <div className="px-4 w150">
-          <h2 className="text-3xl font-bold mb-8 bg-gradient-to-r from-yellow-500 to-green-400 bg-clip-text text-transparent text-center">
+          <h2 className="text-3xl font-bold mb-8 bg-gradient-to-r from-red-500 to-yellow-400 bg-clip-text text-transparent text-center">
             Get In Touch
           </h2>
 
@@ -68,14 +68,14 @@ export const Contact = () => {
               <button
                 type="submit"
                 disabled={state.submitting}
-                className="w-full bg-yellow-500 text-white py-3 px-6 rounded font-medium transition relative overflow-hidden hover:-translate-y-0.5 hover:shadow-[0_0_15px_rgba(59,130,246, 0.4)]"
+                className="w-full bg-red-500 text-white py-3 px-6 rounded font-medium transition relative overflow-hidden hover:-translate-y-0.5 hover:shadow-[0_0_15px_rgba(59,130,246, 0.4)]"
               >
                 Send Message
               </button>
             </form>
           )}
 
-          <h2 className="text-3xl font-bold mt-16 mb-8 bg-gradient-to-r from-yellow-500 to-green-400 bg-clip-text text-transparent text-center">
+          <h2 className="text-3xl font-bold mt-16 mb-8 bg-gradient-to-r from-red-500 to-yellow-400 bg-clip-text text-transparent text-center">
             Social
           </h2>
 
@@ -93,7 +93,7 @@ export const Contact = () => {
             ].map((social, index) => (
               <div
                 key={index}
-                className="p-1 rounded-full bg-gradient-to-r from-yellow-500 to-green-400"
+                className="p-1 rounded-full bg-gradient-to-r from-red-500 to-yellow-400"
               >
                 <div className="bg-black rounded-full p-1">
                   <SocialIcon

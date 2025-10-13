@@ -5,7 +5,7 @@ export const Projects = () =>{
     <section id="projects" className="min-h-screen flex item-center justify-center py-20">
         <RevealOnScroll>
         <div className="max-w-5xl mx-auto px-4">
-            <h2 className="text-3xl font-bold mb-8 bg-gradient-to-r from-yellow-500 to-cyan-400 bg-clip-text text-transparent text-center"> 
+            <h2 className="text-3xl font-bold mb-8 bg-gradient-to-r from-red-500 to-yellow-400 bg-clip-text text-transparent text-center"> 
                 Featured Projects
             </h2>
             <div className="grid grid-cols-1 md:grid-cols-2 gap-6">
@@ -18,7 +18,7 @@ export const Projects = () =>{
                         {["HTML","JavaScript","CSS"].map((tech, key)=>(
                             <span 
                             key={key}
-                                className="bg-yellow-500/10 text-yellow-500 py-1 px-3 rounded-full text-sm hover:bg-yellow-500/20
+                                className="bg-yellow-500/10 text-red-500 py-1 px-3 rounded-full text-sm hover:bg-yellow-500/20
                                                 hover:shadow-[0_2px_8px_rgba(59,130,246,0.1)] transition-all
                             "
                             >
@@ -29,7 +29,7 @@ export const Projects = () =>{
 
                     <div className="flex justify-between items-center">
                         <a href="https://github.com/jeffreydarlington/WeatherApp" 
-                        className="text-yellow-400 hover:text-yellow-300 transition-colors my-4"
+                        className="text-red-400 hover:text-yellow-300 transition-colors my-4"
                         >View Project → {""}</a>
                     </div>
                 </div>
@@ -42,7 +42,7 @@ export const Projects = () =>{
                         {["HTML","JavaScript","CSS"].map((tech, key)=>(
                             <span 
                             key={key}
-                                className="bg-yellow-500/10 text-yellow-500 py-1 px-3 rounded-full text-sm hover:bg-yellow-500/20
+                                className="bg-yellow-500/10 text-red-500 py-1 px-3 rounded-full text-sm hover:bg-yellow-500/20
                                                 hover:shadow-[0_2px_8px_rgba(59,130,246,0.1)] transition-all
                             "
                             >
@@ -53,7 +53,7 @@ export const Projects = () =>{
 
                     <div className="flex justify-between items-center">
                         <a href="https://github.com/jeffreydarlington/Landing_Pages" 
-                        className="text-yellow-400 hover:text-yellow-300 transition-colors my-4"
+                        className="text-red-400 hover:text-yellow-300 transition-colors my-4"
                         >View Project → {""}</a>
                     </div>
                 </div>
@@ -66,7 +66,7 @@ export const Projects = () =>{
                         {["HTML","JavaScript","CSS"].map((tech, key)=>(
                             <span 
                             key={key}
-                                className="bg-yellow-500/10 text-yellow-500 py-1 px-3 rounded-full text-sm hover:bg-yellow-500/20
+                                className="bg-yellow-500/10 text-red-500 py-1 px-3 rounded-full text-sm hover:bg-yellow-500/20
                                                 hover:shadow-[0_2px_8px_rgba(59,130,246,0.1)] transition-all
                             "
                             >
@@ -77,7 +77,7 @@ export const Projects = () =>{
 
                     <div className="flex justify-between items-center">
                         <a href="https://github.com/jeffreydarlington/DigitalClock" 
-                        className="text-yellow-400 hover:text-yellow-300 transition-colors my-4"
+                        className="text-red-400 hover:text-yellow-300 transition-colors my-4"
                         >View Project → {""}</a>
                     </div>
                 </div>
@@ -90,7 +90,7 @@ export const Projects = () =>{
                         {["HTML","JavaScript","CSS"].map((tech, key)=>(
                             <span 
                             key={key}
-                                className="bg-yellow-500/10 text-yellow-500 py-1 px-3 rounded-full text-sm hover:bg-yellow-500/20
+                                className="bg-yellow-500/10 text-red-500 py-1 px-3 rounded-full text-sm hover:bg-yellow-500/20
                                                 hover:shadow-[0_2px_8px_rgba(59,130,246,0.1)] transition-all
                             "
                             >
@@ -101,7 +101,7 @@ export const Projects = () =>{
 
                     <div className="flex justify-between items-center">
                         <a href="https://github.com/jeffreydarlington/To-Do-List-App" 
-                        className="text-yellow-400 hover:text-yellow-300 transition-colors my-4"
+                        className="text-red-400 hover:text-yellow-300 transition-colors my-4"
                         >View Project → {""}</a>
                     </div>
                 </div>
@@ -115,7 +115,7 @@ export const Projects = () =>{
                         {["HTML","JavaScript","CSS"].map((tech, key)=>(
                             <span 
                             key={key}
-                                className="bg-yellow-500/10 text-yellow-500 py-1 px-3 rounded-full text-sm hover:bg-yellow-500/20
+                                className="bg-yellow-500/10 text-red-500 py-1 px-3 rounded-full text-sm hover:bg-yellow-500/20
                                                 hover:shadow-[0_2px_8px_rgba(59,130,246,0.1)] transition-all
                             "
                             >
@@ -126,7 +126,7 @@ export const Projects = () =>{
 
                     <div className="flex justify-between items-center">
                         <a href="https://github.com/jeffreydarlington/ThemeSwitcher" 
-                        className="text-yellow-400 hover:text-yellow-300 transition-colors my-4"
+                        className="text-red-400 hover:text-yellow-300 transition-colors my-4"
                         >View Project → {""}</a>
                     </div>
                 </div>
@@ -139,7 +139,7 @@ export const Projects = () =>{
                         {["C++","STL","Regex","ctime","cstring"].map((tech, key)=>(
                             <span 
                             key={key}
-                                className="bg-yellow-500/10 text-yellow-500 py-1 px-3 rounded-full text-sm hover:bg-yellow-500/20
+                                className="bg-yellow-500/10 text-red-500 py-1 px-3 rounded-full text-sm hover:bg-yellow-500/20
                                                 hover:shadow-[0_2px_8px_rgba(59,130,246,0.1)] transition-all
                             "
                             >
@@ -150,7 +150,7 @@ export const Projects = () =>{
 
                     <div className="flex justify-between items-center">
                         <a href="https://github.com/jeffreydarlington/SimpleBanckAccountSystem" 
-                        className="text-yellow-400 hover:text-yellow-300 transition-colors my-4"
+                        className="text-red-400 hover:text-yellow-300 transition-colors my-4"
                         >View Project → {""}</a>
                     </div>
                 </div>
@@ -163,7 +163,7 @@ export const Projects = () =>{
                         {["C++"].map((tech, key)=>(
                             <span 
                             key={key}
-                                className="bg-yellow-500/10 text-yellow-500 py-1 px-3 rounded-full text-sm hover:bg-yellow-500/20
+                                className="bg-yellow-500/10 text-red-500 py-1 px-3 rounded-full text-sm hover:bg-yellow-500/20
                                                 hover:shadow-[0_2px_8px_rgba(59,130,246,0.1)] transition-all
                             "
                             >
@@ -174,7 +174,7 @@ export const Projects = () =>{
 
                     <div className="flex justify-between items-center">
                         <a href="https://github.com/jeffreydarlington/CPU_Simulator" 
-                        className="text-yellow-400 hover:text-yellow-300 transition-colors my-4"
+                        className="text-red-400 hover:text-yellow-300 transition-colors my-4"
                         >View Project → {""}</a>
                     </div>
                 </div>
