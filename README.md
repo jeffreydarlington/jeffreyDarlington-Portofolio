@@ -29,7 +29,4 @@ Welcome to my personal portfolio website! This project showcases my web developm
 - Interactive project and skills sections  
 - Contact form integrated with Formspree  
 
----
-
-## 💻 Project Structure
 

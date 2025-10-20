@@ -7,12 +7,11 @@ export const Home = () =>{
             <RevealOnScroll>
             <div className="text-center z-10 px-4">
                 <h1 className="text-5xl md:text-7xl font-bold mb6 bg-gradient-to-r from-red-500 to-yellow-300 bg-clip-text text-transparent leading-right"
-                >Hi, I'm Jeffrey Darlington
+                >Hi, I'm Tamaramieka Jeffrey Darlington
                 </h1>
 
                 <p className="text-gray-400 text-lg mb-8 max-w-lg mx-auto">
-                Hey! I'm Jeffrey Darlington, a Aspiring Data Analyst with a technical background in web development and C++.
-                 Skilled in Python, SQL, and data storytelling, with a growing portfolio in analytics and automation.
+                Hi! I'm Tamaramieka Jeffrey Darlington — an emerging Data Analyst and Software Developer with a foundation in C++ and web development. I work with Python, SQL, and automation to turn data into insights, and I’m building a growing portfolio in analytics, reporting, and problem-solving.
                 </p>
                 <div className="flex justify-center space-x-4">
                     <a href="#projects" 

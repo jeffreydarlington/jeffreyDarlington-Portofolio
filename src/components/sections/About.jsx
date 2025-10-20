@@ -5,14 +5,12 @@ export const About = () => {
     const frontendSkills = [
         "React", 
         "TypeScript", 
-        "Vercel/Netlify", 
         "Redux" , 
         "Next.js", 
         "TailwindCSS"];
     
     const backendSkills = [
         "Node.js",
-        "AWS",
         "MongoDB",
         "CRUD"
     ]
