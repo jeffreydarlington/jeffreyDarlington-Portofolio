@@ -6,7 +6,7 @@ Welcome to my personal portfolio website! This project showcases my web developm
 
 ## 🔗 Live Demo
 
-[View Live Site](https://jeffreydarlington.github.io/jeffreydarlington-portfolio/)
+[View Live Site](https://jeffreydarlington.github.io/)
 
 ---
 
