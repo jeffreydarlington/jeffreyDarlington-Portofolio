@@ -19,7 +19,7 @@ export const Skills = () => {
                   "Python (Pandas, NumPy)",
                   "SQL",
                   "Excel",
-                  "Power BI / Tableau",
+                   "IBM Cognos Analytics",
                   "APIs",
                   "Data Cleaning",
                   "Visualization"
