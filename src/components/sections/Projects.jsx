@@ -56,6 +56,12 @@ export const Projects = () =>{
                         className="text-red-400 hover:text-yellow-300 transition-colors my-4"
                         >View Project → {""}</a>
                     </div>
+                    
+                    <div className="flex justify-between items-center">
+                        <a href="https://jeffreydarlington.github.io/Landing_Pages/" 
+                        className="text-red-400 hover:text-yellow-300 transition-colors my-4"
+                        >View Live →{""}</a>
+                    </div>
                 </div>
 
                 <div className="p-6 rounded-xl border border-white/10 hover:-translate-y-1 hover:border-yellow-500/30 hover:shadow-[0_2px_8px_rgba(59,130,246,0.2)] transition">
