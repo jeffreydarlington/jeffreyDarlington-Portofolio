@@ -61,7 +61,6 @@ export const Skills = () => {
               <div className="flex flex-wrap gap-2">
                 {[
                   "Node.js",
-                  "MongoDB",
                 ].map((skill, key) => (
                   <span
                     key={key}

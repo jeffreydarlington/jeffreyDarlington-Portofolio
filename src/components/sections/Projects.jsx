@@ -4,15 +4,43 @@ export const Projects = () =>{
     return (
     <section id="projects" className="min-h-screen flex item-center justify-center py-20">
         <RevealOnScroll>
+        
+
         <div className="max-w-5xl mx-auto px-4">
             <h2 className="text-3xl font-bold mb-8 bg-gradient-to-r from-red-500 to-yellow-400 bg-clip-text text-transparent text-center"> 
                 Featured Projects
             </h2>
             <div className="grid grid-cols-1 md:grid-cols-2 gap-6">
+
+            <div className="p-6 rounded-xl border border-white/10 hover:-translate-y-1 hover:border-yellow-500/30 hover:shadow-[0_2px_8px_rgba(59,130,246,0.2)] transition">
+                    <h3 className="text-xl font-bold mb-2">Revenue-Data-and-Building-a-Dashboard-v1</h3>
+                    <p className="text-gray-400 mb-4">
+                    This project involves web scraping revenue data from a specified website using Python and BeautifulSoup. The scraped data is then processed and visualized in a dashboard format using Jupyter Notebook, providing insights into revenue trends and patterns.
+                    </p>
+                    <div className="flex flex-wrap gap-2 mb-4">
+                        {["Python","Jupyter Notebook","WebScraping", "BeautifulSoup"].map((tech, key)=>(
+                            <span 
+                            key={key}
+                                className="bg-yellow-500/10 text-red-500 py-1 px-3 rounded-full text-sm hover:bg-yellow-500/20
+                                                hover:shadow-[0_2px_8px_rgba(59,130,246,0.1)] transition-all
+                            "
+                            >
+                                {tech}
+                            </span>
+                        ))}
+                    </div>
+
+                    <div className="flex justify-between items-center">
+                        <a href="https://github.com/jeffreydarlington/Revenue-Data-and-Building-a-Dashboard-v1/tree/main" 
+                        className="text-red-400 hover:text-yellow-300 transition-colors my-4"
+                        >View Project → {""}</a>
+                    </div>
+                </div>
+                
                 <div className="p-6 rounded-xl border border-white/10 hover:-translate-y-1 hover:border-yellow-500/30 hover:shadow-[0_2px_8px_rgba(59,130,246,0.2)] transition">
                     <h3 className="text-xl font-bold mb-2">Weather App</h3>
                     <p className="text-gray-400 mb-4">
-                    This is a simple Weather App that allows users to fetch current weather data and a 24-hour forecast for a specified city using the OpenWeatherMap API.
+                    A simple weather application that fetches and displays current weather data for a specified location using HTML, CSS, and JavaScript. The app utilizes a weather API to retrieve real-time weather information and presents it in a user-friendly interface.
                     </p>
                     <div className="flex flex-wrap gap-2 mb-4">
                         {["HTML","JavaScript","CSS"].map((tech, key)=>(
@@ -37,7 +65,8 @@ export const Projects = () =>{
                 <div className="p-6 rounded-xl border border-white/10 hover:-translate-y-1 hover:border-yellow-500/30 hover:shadow-[0_2px_8px_rgba(59,130,246,0.2)] transition">
                     <h3 className="text-xl font-bold mb-2">Landing Page</h3>
                     <p className="text-gray-400 mb-4">
-                    This project is a responsive and stylish login page. The page includes both Sign Up and Sign In forms, with smooth transitions and social media login options. The design is user-friendly and adapts well to different screen sizes.                    </p>
+                    A responsive landing page built using HTML, CSS, and JavaScript. The design features a modern layout with engaging visuals and interactive elements to attract and retain visitors.
+                    </p>
                     <div>
                         {["HTML","JavaScript","CSS"].map((tech, key)=>(
                             <span 
